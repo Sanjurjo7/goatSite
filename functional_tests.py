@@ -1,4 +1,5 @@
-#terminology: functional test, acceptance test, end-to-end test
+# terminology: functional test, acceptance test, end-to-end test
+# change for commit test.
 from selenium import webdriver
 import unittest
 
