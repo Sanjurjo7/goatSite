@@ -14,6 +14,6 @@ class HomePageTest(TestCase):
 	def test_home_page_returns_correct_html(self):
 		request = HttpRequest()
 		response = home_page(request)
-		self.asserEqual(response.content.decode(), expected_html)
+		self.assertEqual(response.content.decode(), expected_html)
 
 
